@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+nav{
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+}
+nav a{
+    color:black;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 16px;
+}
+
+.hero{
+    background-color: #282828;
+    color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+}
+.hero h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.hero p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.hero button{
+    background-color: #07bce9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.hero-contact{
+    background-color: rgb(56, 171, 216);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+.hero-contact h1{
+    font-size: 35px;
+}
+.hero-contact p{
+    font-size: 16px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.skills {
+    background-color: lightblue; 
+}
+
+.culture {
+    background-color: lightgreen;
+}
+
+.future {
+    background-color: lightcoral;
+}
+
+/* contact page styles */
+
+.main-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 40px;
+}
+.info,
+.contact-form{
+    flex: 1;
+    padding: 25px;
+    background-color: #6ec9bd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.info img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #cc05d3;
+}
+input,
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.contact-form button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #e23e0c;
+    color: #fff;
+    border: none;
+}
+.contact-form button:hover{
+    background-color: #cc05d3;
+}
+.contact-form p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+.info h2{
+    font-size: 15px;
+    margin-top: 60px;
+    color: #333;
+}
+.info p{
+    font-size: 11px;
+    line-height: 0.5;
+    color: #e23e0c;
+    
+}
